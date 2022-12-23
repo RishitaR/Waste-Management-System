@@ -1,0 +1,12 @@
+All existing user details: 
+saved in database
++------------+-----------+--------+------------+-----------+----------+----------+
+| first_name | last_name | gender | account_no | address   | username | password |
++------------+-----------+--------+------------+-----------+----------+----------+
+| Harsh      | C         | male   |      12001 | pune      | otter    | 170      |
+| Rishita    | R         | female |      12002 | bethul    | seal     | 1441     |
+| Rishita    | Rathore   | female |      12003 | Pune      | rish     | 1234     |
+| Niharika   | K         | female |      12004 | Rajasthan | Nihu     | 2909     |
+| Krisha     | Joshi     | female |      12005 | Gujarat   | krishaa  | krish    |
+| Moksh      | Jain      | male   |      12006 | Indore    | mokshj   | 890      |
++------------+-----------+--------+------------+-----------+----------+----------+

@@ -1,0 +1,15 @@
+1. To run the code download MySQL and open the command line client write the steps as it is in the uploaded file "mysql_projectfile.sql".
+2. Open dev C++ to connect the database to dev. for the connection follow the following steps:
+	a. Click on the new project and add all the shared cpp files to it.
+	b. Click on the project (present on the top of the screen) and go to project options.
+	c. Click on parameters and write -lmysql in the linker section.
+	d. Click on the directories section and in library directories add the path from 
+		file -> my PC -> windows(C:) -> program files -> MySQL -> MySQL server -> lib (copy this path and add in library directories)
+	e. Click on the directories section and in include directories add the path from 
+		file -> my PC -> windows(C:) -> program files -> MySQL -> MySQL server -> include (copy this path and add in include directories)
+		file -> my PC -> windows(C:) -> program files -> MySQL -> MySQL server -> include -> mysql
+			(copy this path and add in include directories)
+	f. Also from the lib folder same as the above-mentioned copy the file named "libmysql.dll" and paste it to the folder where you have
+	created the project in the files.
+	g. press ok and now your database is connected to your dev C++ compiler.
+	h. Compile and run the code.
